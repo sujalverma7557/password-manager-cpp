@@ -1,26 +1,35 @@
 # 🔐 Password Manager CLI (C++)
 
-A secure password manager built in C++ using object-oriented programming, file handling, and regex validation.
+A secure and interactive command-line Password Manager built in C++ using Object-Oriented Programming, file handling, and regex validation.
 
 ## 🚀 Features
 
-- Register/login system with file-based storage
-- Add, update, search, and delete saved passwords
-- Password strength checker (Upper, Lower, Digit, Special)
-- Email validation for Gmail accounts
-- Persistent user sessions
-- Fully menu-driven terminal UI
-
-## 🧠 Concepts Used
-
-- OOP (classes, encapsulation)
-- File handling with `fstream`
-- Regex validation (`<regex>`)
-- CLI navigation (`cin`, `getline`, `system("clear")`)
+- 🔒 Register/Login system with persistent user sessions
+- ➕ Add, 🔁 Update, 🔍 Search, and ❌ Delete stored passwords
+- ✅ Password strength checker (uppercase, lowercase, digits, special characters)
+- 📧 Email validation for Gmail accounts using `regex`
+- 🗃️ File-based storage using `.txt` files
+- 📟 Fully menu-driven terminal UI
 
 ## 📂 How to Run
 
-```bash
-g++ password_manager.cpp -o password_manager
-./password_manager
+Follow these steps to compile and run the project on your local machine.
 
+### 🔧 Prerequisites
+
+- A C++ compiler like `g++` installed (via Xcode CLI tools on Mac or g++ on Linux/Windows)
+
+### 🖥️ Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sujalverma7557/password-manager-cpp.git
+   cd password-manager-cpp
+
+2. **Compile the Code**
+   ```bash
+   g++ password_manager.cpp -o password_manager
+
+1. **Run the Executable**
+   ```bash
+   ./password_manager
